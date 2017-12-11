@@ -9,3 +9,5 @@ out
 gen
 .DS_Store
 dataset
+*.hdfs
+log_tensorboard/*

@@ -7,6 +7,6 @@ train_data=getTrainData(data_path=filepath,img_cols=70,img_rows=70,batch_size=12
 test_data =getTestData( data_path=filepath, img_cols=70,img_rows=70,batch_size=128)
 
 recognize = lenet_model(train_data=train_data,validact_data=test_data)
-recognize.run(1)
+recognize.run(100)
 
 print("123")
